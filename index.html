@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини Веб-Сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="navbar">
+        <div class="logo">Cyber<span>Dev</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Кош келиңиздер!</h1>
+            <p>Бул Flexbox технологиясы менен жасалган заманбап жана интерактивдүү мини веб-сайт.</p>
+            <a href="#about" class="btn">Кененирээк билүү</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>Биз жөнүндө (About)</h2>
+        <div class="about-container">
+            <div class="about-card">
+                <h3>Веб Иштеп Чыгуу</h3>
+                <p>HTML5, CSS3 жана заманбап JavaScript куралдарын колдонуу менен сапаттуу тиркемелерди түзөбүз.</p>
+            </div>
+            <div class="about-card">
+                <h3>Мультимедиа</h3>
+                <p>Визуалдык эффекттер, неондук стилдер жана колдонуучуга ыңгайлуу UI/UX дизайн өзгөчөлүктөрү.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Байланышуу (Contact)</h2>
+        <p>Мени менен байланышуу үчүн төмөнкү маалыматтарды колдонсоңуз болот же түз кат жөнөтүңүз:</p>
+        
+        <div class="contact-info" style="margin-bottom: 35px; font-size: 18px; display: flex; flex-direction: column; gap: 10px; align-items: center;">
+            <p>📞 <strong>Телефон:</strong> <a href="tel:+996774650303" style="color: #00ffcc; text-decoration: none; font-weight: bold; transition: text-shadow 0.3s;" onmouseover="this.style.textShadow='0 0 10px #00ffcc'" onmouseout="this.style.textShadow='none'">+996 774 65 03 03</a></p>
+            <p>📧 <strong>Email:</strong> <a href="mailto:gazybakirov@gmail.com" style="color: #00ffcc; text-decoration: none; font-weight: bold; transition: text-shadow 0.3s;" onmouseover="this.style.textShadow='0 0 10px #00ffcc'" onmouseout="this.style.textShadow='none'">gazybakirov@gmail.com</a></p>
+        </div>
+
+        
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 | Иштеп чыккан: <strong>Бакиров Мамбетгазы</strong>. Бардык укуктар корголгон. | №67 Кесиптик Лицей</p>
+    </footer>
+
+</body>
+</html>
